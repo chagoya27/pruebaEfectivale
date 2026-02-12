@@ -78,7 +78,7 @@ La descarga es muy sencilla solo tendremos que tener cuidado en donde queremos q
 
 Y en el apartado de **sites** damos click en el boton ***add*** seleccionando la carpeta de nuestro proyecto
 
-![add Site](.github/images/addSite.png)
+![add Site](.github/images/image.png)
 
 
 
@@ -137,6 +137,10 @@ El archivo **mensaje.json** se encuentra dentro de storage/app/private. Esto por
             "message": "Reclutador"
         }
     ]
+
+## Entorno 'productivo'
+
+Si se desea probar el sistema desde cualquier dispositivo con internet , puedes hacerlo a través de la siguiente liga: https://pruebaefectivale-main-7t3oka.laravel.cloud/
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
