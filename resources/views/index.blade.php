@@ -24,6 +24,7 @@
                 <textarea class="form-control" id="message" rows="3" name="message"></textarea>
             </div>
 
+            <!--Botones-->
             <div class="d-flex justify-content-center align-items-center flex-wrap"> 
                 <button type="submit" class="btn btn-primary m-1">Enviar Formulario</button>
                 <a href="{{route('message.index')}}" class="btn btn-secondary m-1">Mostrar registros</a>
@@ -32,7 +33,7 @@
     </div>
     
 
-
+    <!--Código JS para el envío asincrono de mensajes--->
     <script>
         document.getElementById('indexForm').addEventListener('submit',function(e){
             //evitamos que la página se recarge
